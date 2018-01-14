@@ -1,0 +1,106 @@
+<?php
+return [
+    'BE' => [
+        'debug' => false,
+        'explicitADmode' => 'explicitAllow',
+        'installToolPassword' => '$pbkdf2-sha256$25000$K3N3czETa8D9m7KS5iG8jQ$SOwREMsLMz.Qkl2tTW.EtXhpa5dwdOADp7PTwMTwmxU',
+        'loginSecurityLevel' => 'normal',
+    ],
+    'DB' => [
+        'Connections' => [
+            'Default' => [
+                'charset' => 'utf8',
+                'dbname' => 'typo3_new_site',
+                'driver' => 'mysqli',
+                'host' => 'localhost',
+                'password' => 'dev',
+                'user' => 'developer',
+            ],
+        ],
+    ],
+    'EXT' => [
+        'extConf' => [
+            'backend' => 'a:5:{s:9:"loginLogo";s:0:"";s:19:"loginHighlightColor";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:11:"backendLogo";s:0:"";s:14:"backendFavicon";s:0:"";}',
+            'belog' => 'a:0:{}',
+            'beuser' => 'a:0:{}',
+            'bootstrap_package' => 'a:7:{s:16:"disablePageTsRTE";s:1:"0";s:27:"disablePageTsBackendLayouts";s:1:"0";s:20:"disablePageTsTCEMAIN";s:1:"0";s:20:"disablePageTsTCEFORM";s:1:"0";s:30:"disablePageTsTtContentPreviews";s:1:"0";s:36:"disablePageTsNewContentElementWizard";s:1:"0";s:21:"disableLessProcessing";s:1:"0";}',
+            'car_rental' => 'a:0:{}',
+            'documentation' => 'a:0:{}',
+            'extension_builder' => 'a:3:{s:15:"enableRoundtrip";s:1:"1";s:15:"backupExtension";s:1:"1";s:9:"backupDir";s:35:"uploads/tx_extensionbuilder/backups";}',
+            'extensionmanager' => 'a:2:{s:21:"automaticInstallation";s:1:"1";s:11:"offlineMode";s:1:"0";}',
+            'felogin' => 'a:0:{}',
+            'femanager' => 'a:4:{s:13:"disableModule";s:1:"0";s:24:"enableConfirmationModule";s:1:"0";s:10:"disableLog";s:1:"0";s:16:"setCookieOnLogin";s:1:"0";}',
+            'filemetadata' => 'a:0:{}',
+            'form' => 'a:0:{}',
+            'func' => 'a:0:{}',
+            'impexp' => 'a:0:{}',
+            'info' => 'a:0:{}',
+            'lowlevel' => 'a:0:{}',
+            'reports' => 'a:0:{}',
+            'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
+            'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\Pbkdf2Salt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\Pbkdf2Salt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
+            'scheduler' => 'a:4:{s:11:"maxLifetime";s:4:"1440";s:11:"enableBELog";s:1:"1";s:15:"showSampleTasks";s:1:"1";s:11:"useAtdaemon";s:1:"0";}',
+            'site_package_basics' => 'a:0:{}',
+            'site_package_payd' => 'a:0:{}',
+            't3editor' => 'a:0:{}',
+            'tstemplate' => 'a:0:{}',
+            'viewpage' => 'a:0:{}',
+            'wizard_crpages' => 'a:0:{}',
+            'wizard_sortpages' => 'a:0:{}',
+            'workspaces' => 'a:0:{}',
+        ],
+    ],
+    'EXTCONF' => [
+        'lang' => [
+            'availableLanguages' => [],
+        ],
+    ],
+    'FE' => [
+        'debug' => false,
+        'loginSecurityLevel' => 'rsa',
+    ],
+    'GFX' => [
+        'jpg_quality' => '80',
+        'processor' => 'GraphicsMagick',
+        'processor_allowTemporaryMasksAsPng' => false,
+        'processor_colorspace' => 'RGB',
+        'processor_effects' => -1,
+        'processor_enabled' => true,
+        'processor_path' => '/usr/bin/',
+        'processor_path_lzw' => '/usr/bin/',
+    ],
+    'MAIL' => [
+        'transport' => 'sendmail',
+        'transport_sendmail_command' => '/usr/sbin/sendmail -t -i ',
+        'transport_smtp_encrypt' => '',
+        'transport_smtp_password' => '',
+        'transport_smtp_server' => '',
+        'transport_smtp_username' => '',
+    ],
+    'SYS' => [
+        'caching' => [
+            'cacheConfigurations' => [
+                'extbase_object' => [
+                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\ApcuBackend',
+                    'frontend' => 'TYPO3\\CMS\\Core\\Cache\\Frontend\\VariableFrontend',
+                    'groups' => [
+                        'system',
+                    ],
+                    'options' => [
+                        'defaultLifetime' => 0,
+                    ],
+                ],
+            ],
+        ],
+        'devIPmask' => '',
+        'displayErrors' => 0,
+        'enableDeprecationLog' => false,
+        'encryptionKey' => '9d7447067e4fca01d77e93a2474141713b22870636f15a3d28fef4cbb66d652f9c41bc79889434725343baf0a470f355',
+        'exceptionalErrors' => 20480,
+        'isInitialDatabaseImportDone' => true,
+        'isInitialInstallationInProgress' => false,
+        'sitename' => 'TYPO3 New Site',
+        'sqlDebug' => 0,
+        'systemLogLevel' => 2,
+    ],
+];

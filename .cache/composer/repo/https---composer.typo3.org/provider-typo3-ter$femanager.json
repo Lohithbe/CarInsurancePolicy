@@ -1,0 +1,1967 @@
+{
+    "packages": {
+        "typo3-ter/femanager": {
+            "1.0.0": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": "*"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-07-05 12:37:37",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "FE-User Registration and Management based on Extbase and Fluid. This extension basicly works like sr_feuser_register.",
+                "uid": 7356
+            },
+            "1.0.1": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-07-07 13:36:06",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 FE-User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7357
+            },
+            "1.0.10": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.10",
+                "version_normalized": "1.0.10.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.10/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.1.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2014-01-28 11:15:10",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and e\r\n\t\txtension possibilities. This extension basicly works like sr_feuser_register.\r\n\t",
+                "uid": 7358
+            },
+            "1.0.11": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.11",
+                "version_normalized": "1.0.11.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.11/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.1.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2014-02-05 16:09:49",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7359
+            },
+            "1.0.2": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.2/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-07-09 15:16:23",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7360
+            },
+            "1.0.3": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.3/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-07-22 17:11:44",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7361
+            },
+            "1.0.4": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.4/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-08-03 23:45:51",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7362
+            },
+            "1.0.5": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.5/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-08-21 16:29:23",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7363
+            },
+            "1.0.6": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.6/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-08-22 11:53:44",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7364
+            },
+            "1.0.7": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.7/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.1.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-09-27 10:04:44",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7365
+            },
+            "1.0.8": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.8/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.1.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2013-10-14 10:27:38",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7366
+            },
+            "1.0.9": {
+                "name": "typo3-ter/femanager",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.0.9/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.1.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "time": "2014-01-12 15:34:53",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on Extbase and Fluid with Namespaces and a lot of features and extension possibilities. This extension basicly works like sr_feuser_register.",
+                "uid": 7367
+            },
+            "1.1.0": {
+                "name": "typo3-ter/femanager",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.1.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.1.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99"
+                },
+                "time": "2014-02-16 21:46:04",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7368
+            },
+            "1.1.1": {
+                "name": "typo3-ter/femanager",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.1.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-03-11 10:21:24",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7369
+            },
+            "1.1.2": {
+                "name": "typo3-ter/femanager",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.1.2/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-03-14 09:47:14",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7370
+            },
+            "1.1.3": {
+                "name": "typo3-ter/femanager",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.1.3/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-03-24 14:58:19",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7371
+            },
+            "1.2.0": {
+                "name": "typo3-ter/femanager",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.2.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-04-30 14:45:55",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7372
+            },
+            "1.2.1": {
+                "name": "typo3-ter/femanager",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.2.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-05-26 15:29:22",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7373
+            },
+            "1.2.2": {
+                "name": "typo3-ter/femanager",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.2.2/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-06-25 18:28:50",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\r\n\t\tTYPO3 Frontend User Registration and Management based on\r\n\t\tExtbase and Fluid with Namespaces and a lot of features and\r\n\t\textension possibilities. Extension basicly works like sr_feuser_register\r\n\t",
+                "uid": 7374
+            },
+            "1.3.0": {
+                "name": "typo3-ter/femanager",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.3.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-07-10 13:25:45",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\n\t\tTYPO3 Frontend User Registration and Management based on\n\t\tExtbase and Fluid with Namespaces and a lot of features and\n\t\textension possibilities. Extension basicly works like sr_feuser_register\n\t",
+                "uid": 7375
+            },
+            "1.4.0": {
+                "name": "typo3-ter/femanager",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.4.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2014-09-22 13:55:43",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\n\t\tTYPO3 Frontend User Registration and Management based on\n\t\tExtbase and Fluid with Namespaces and a lot of features and\n\t\textension possibilities. Extension basicly works like sr_feuser_register\n\t",
+                "uid": 7376
+            },
+            "1.4.1": {
+                "name": "typo3-ter/femanager",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.4.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2015-01-02 17:02:32",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\n\t\tTYPO3 Frontend User Registration and Management based on\n\t\tExtbase and Fluid with Namespaces and a lot of features and\n\t\textension possibilities. Extension basicly works like sr_feuser_register\n\t",
+                "uid": 7377
+            },
+            "1.4.2": {
+                "name": "typo3-ter/femanager",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.4.2/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2015-01-03 18:17:21",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\n\t\tTYPO3 Frontend User Registration and Management based on\n\t\tExtbase and Fluid with Namespaces and a lot of features and\n\t\textension possibilities. Extension basicly works like sr_feuser_register\n\t",
+                "uid": 7378
+            },
+            "1.4.3": {
+                "name": "typo3-ter/femanager",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.4.3/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.0.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2015-01-13 19:34:47",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\n\t\tTYPO3 Frontend User Registration and Management based on\n\t\tExtbase and Fluid with Namespaces and a lot of features and\n\t\textension possibilities. Extension basicly works like sr_feuser_register\n\t",
+                "uid": 7379
+            },
+            "1.5.0": {
+                "name": "typo3-ter/femanager",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.5.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.2.0, <= 6.2.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2015-04-23 14:24:08",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\n\t\tTYPO3 Frontend User Registration and Management based on\n\t\tExtbase and Fluid with Namespaces and a lot of features and\n\t\textension possibilities. Extension basicly works like sr_feuser_register\n\t",
+                "uid": 7380
+            },
+            "1.5.2": {
+                "name": "typo3-ter/femanager",
+                "version": "1.5.2",
+                "version_normalized": "1.5.2.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/1.5.2/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "typo3/cms-core": ">= 6.2.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2015-10-19 12:46:57",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Alex Kellner",
+                        "email": "alexander.kellner@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "\n\t\tTYPO3 Frontend User Registration and Management based on\n\t\tExtbase and Fluid with Namespaces and a lot of features and\n\t\textension possibilities. Extension basicly works like sr_feuser_register\n\t",
+                "uid": 7381
+            },
+            "2.0.0": {
+                "name": "typo3-ter/femanager",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.0.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-02-05 22:13:11",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7382
+            },
+            "2.0.1": {
+                "name": "typo3-ter/femanager",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.0.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-02-20 22:28:11",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7383
+            },
+            "2.1.0": {
+                "name": "typo3-ter/femanager",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.1.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-02-29 22:51:39",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7384
+            },
+            "2.2.0": {
+                "name": "typo3-ter/femanager",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.2.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-03-08 21:18:57",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7385
+            },
+            "2.3.0": {
+                "name": "typo3-ter/femanager",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.3.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-04-28 21:46:07",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7386
+            },
+            "2.4.0": {
+                "name": "typo3-ter/femanager",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.4.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.0.4, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-05-14 20:54:18",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ],
+                    "exclude-from-classmap": [
+                        "Migrations",
+                        "Tests",
+                        "tests",
+                        "class.ext_update.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7387
+            },
+            "2.5.0": {
+                "name": "typo3-ter/femanager",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.5.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-06-27 10:43:49",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7388
+            },
+            "2.5.1": {
+                "name": "typo3-ter/femanager",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.5.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-07-18 10:47:52",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7389
+            },
+            "2.6.0": {
+                "name": "typo3-ter/femanager",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/2.6.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 5.5.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 7.6.0, <= 7.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2016-10-23 19:22:48",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7390
+            },
+            "3.0.0": {
+                "name": "typo3-ter/femanager",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.0.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-08-08 14:24:16",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7391
+            },
+            "3.0.1": {
+                "name": "typo3-ter/femanager",
+                "version": "3.0.1",
+                "version_normalized": "3.0.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.0.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-08-11 16:14:49",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7392
+            },
+            "3.0.2": {
+                "name": "typo3-ter/femanager",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.0.2/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-08-13 23:05:38",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7393
+            },
+            "3.1.0": {
+                "name": "typo3-ter/femanager",
+                "version": "3.1.0",
+                "version_normalized": "3.1.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.1.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-08-15 21:44:36",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7394
+            },
+            "3.1.1": {
+                "name": "typo3-ter/femanager",
+                "version": "3.1.1",
+                "version_normalized": "3.1.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.1.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-08-28 17:16:01",
+                "type": "typo3-cms-extension",
+                "extra": {
+                    "typo3/ter": {
+                        "review-state": "insecure"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7395
+            },
+            "3.1.2": {
+                "name": "typo3-ter/femanager",
+                "version": "3.1.2",
+                "version_normalized": "3.1.2.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.1.2/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-09-06 13:53:05",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 7.6 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7396
+            },
+            "3.1.3": {
+                "name": "typo3-ter/femanager",
+                "version": "3.1.3",
+                "version_normalized": "3.1.3.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.1.3/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-10-12 16:13:04",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 8 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7397
+            },
+            "3.2.0": {
+                "name": "typo3-ter/femanager",
+                "version": "3.2.0",
+                "version_normalized": "3.2.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.2.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-11-10 21:29:13",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 8 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7398
+            },
+            "3.3.0": {
+                "name": "typo3-ter/femanager",
+                "version": "3.3.0",
+                "version_normalized": "3.3.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/3.3.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.99.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-11-25 19:11:09",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 8 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7399
+            },
+            "4.0.0": {
+                "name": "typo3-ter/femanager",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/4.0.0/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.2.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-12-18 16:02:35",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 8 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7400
+            },
+            "4.0.1": {
+                "name": "typo3-ter/femanager",
+                "version": "4.0.1",
+                "version_normalized": "4.0.1.0",
+                "dist": {
+                    "type": "t3x",
+                    "url": "https://extensions.typo3.org/extension/download/femanager/4.0.1/t3x/",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">= 7.0.0, <= 7.2.99",
+                    "typo3/cms-core": ">= 8.7.0, <= 8.99.99"
+                },
+                "replace": {
+                    "femanager": "self.version"
+                },
+                "suggest": {
+                    "typo3-ter/sr-freecap": ">= 2.3.0, <= 2.99.99",
+                    "typo3-ter/static-info-tables": ">= 6.0.0, <= 6.99.99"
+                },
+                "time": "2017-12-20 11:42:52",
+                "type": "typo3-cms-extension",
+                "autoload": {
+                    "psr-4": {
+                        "In2code\\Femanager\\": "Classes/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "femanager dev team",
+                        "email": "info@in2code.de",
+                        "company": "in2code.de - Wir leben TYPO3",
+                        "username": "wunschtacho"
+                    }
+                ],
+                "description": "TYPO3 Frontend User Registration and Management based on\n        Extbase and Fluid and on TYPO3 8 and the possibility to extend it.\n        Extension basicly works like sr_feuser_register",
+                "uid": 7401
+            }
+        }
+    }
+}

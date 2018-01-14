@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-12-29T13:45:04Z" product-name="car_rental">
+		<header/>
+		<body>
+			<trans-unit id="tx_carrental_domain_model_brand">
+				<source>Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_carrental_domain_model_car">
+				<source>Car</source>
+			</trans-unit>
+			<trans-unit id="tx_carrental_domain_model_tire">
+				<source>Tire</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
